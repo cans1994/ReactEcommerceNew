@@ -1,12 +1,12 @@
 import '../components/headerr.css'
-import Lolgo from '../assets/lolgo.jpg'
+import Flowers from '../assets/flowers.png'
 
 function HeaderPerso() {
     return (
         <div className="HeaderPerso">
             <header className='HeaderPersoANous'>
             <h1>Bienvenue chez Flowers et Co</h1>
-            <img src={Lolgo} className="Header-Logo" alt="logo joli" />
+            <img src={Flowers} className="Header-Logo" alt="logo joli" />
             </header>
         </div>
     )

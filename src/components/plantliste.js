@@ -40,7 +40,7 @@ class Plantliste extends Component {
     // var linkStyle;
     if (this.state.hover) {
       <p>plop</p>;
-      //   linkStyle = { color: "#ed1212", cursor: "pointer" };
+        // linkStyle = { color: "#ed1212", cursor: "pointer" };
     } else {
       <p>pas plop</p>;
       //   linkStyle = { color: "#000" };

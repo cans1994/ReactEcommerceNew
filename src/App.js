@@ -26,7 +26,6 @@ function App() {
       <HeaderPerso />
       <ColorPickerMenu />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <Produits />
         <Cart />
       </header>
@@ -38,6 +37,6 @@ function App() {
   );
 }
 
-// const [cart, setCart] = useState();
+//const [cart, setCart] = useState();
 
 export default App;

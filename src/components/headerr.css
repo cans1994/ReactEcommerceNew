@@ -4,3 +4,50 @@
   font-family: "Playfair Display", serif;
   background: #9198e5;
 }
+
+h1 {
+  font-size: 3em;
+  color: white;
+  text-shadow: #544caf;
+}
+
+header.App-header {
+  font-family: "Playfair Display", serif;
+  background: #9198e5;
+
+}
+
+section.Selection {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Selection button {
+  background-color: #544caf; 
+  border-radius: 45px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ApercuPanier button {
+    background-color: #544caf; 
+  border-radius: 45px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 500px;
+}

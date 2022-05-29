@@ -1,4 +1,4 @@
-// import { liste } from './plantliste';
+import { liste } from './plantliste.js';
 
 function Cart() {
   const cactusPrice = 3;
@@ -10,15 +10,17 @@ function Cart() {
       <h2>Votre Panier</h2>
       <ul>
         <li>Cactus : {cactusPrice} €</li>
-        {/* <button>Ajouter au panier</button> */}
+        { <button>Ajouter au panier</button> }
         <li>Cerisier : {pinkPrice} €</li>
-        {/* <button>Ajouter au panier</button> */}
+        { <button>Ajouter au panier</button> }
         <li>Rose: {rosePrice} €</li>
-        {/* <button>Ajouter au panier</button> */}
+        { <button>Ajouter au panier</button> }
       </ul>
       Total : {cactusPrice + pinkPrice + rosePrice} €
     </div>
   );
 }
+
+
 
 export default Cart;
